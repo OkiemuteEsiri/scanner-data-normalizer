@@ -1,0 +1,20 @@
+[
+  {
+    "asset": {"uuid": "asset-001", "hostname": "lab-app-01", "ipv4": "10.10.0.10"},
+    "plugin": {"id": 10001, "name": "Synthetic TLS Library Finding", "cves": ["CVE-2025-1234"], "solution": "Apply the approved vendor update and re-scan.", "family": "General"},
+    "severity": 4,
+    "first_found": "2026-08-20T10:00:00Z",
+    "last_found": "2026-09-08T10:00:00Z",
+    "state": "open",
+    "output": "Synthetic evidence: affected library version observed in authorized lab inventory."
+  },
+  {
+    "asset": {"uuid": "asset-002", "hostname": "lab-api-01", "ipv4": "10.10.0.11"},
+    "plugin": {"id": 10002, "name": "Synthetic Application Component Finding", "cves": ["CVE-2026-2222"], "solution": "Upgrade the affected component and validate dependency resolution.", "family": "Web Servers"},
+    "severity": 3,
+    "first_found": "2026-09-01T11:00:00Z",
+    "last_found": "2026-09-08T11:00:00Z",
+    "state": "open",
+    "output": "Synthetic evidence only."
+  }
+]
